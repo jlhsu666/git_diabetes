@@ -4,6 +4,10 @@ app = Flask(__name__)
 def index():
     return "Hello World"
 
+@app.route('/<name>')
+def hello(name):
+    return "Hello" + name + "!!!"
+
 if __name__=="__main__":
     app.run()
 
