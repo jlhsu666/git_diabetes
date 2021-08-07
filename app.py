@@ -10,6 +10,26 @@ def index():
 @app.route('/aml', methods=['GET','POST'])
 def aml():
     # request.values['p1']
+# data = {
+#     "Inputs": {
+#         "WebServiceInput0":
+#         [
+#             {
+#                 'Pregnancies': "6",
+#                 'Glucose': "148",
+#                 'BloodPressure': "72",
+#                 'SkinThickness': "35",
+#                 'Insulin': "0",
+#                 'BMI': "33.6",
+#                 'DiabetesPedigreeFunction': "0.627",
+#                 'Age': "50",
+#                 'Outcome': "1",
+#             },
+#         ],
+#     },
+#     "GlobalParameters": {
+#     }
+# }
 
     data = {
         "Inputs": {
